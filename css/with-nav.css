@@ -1,0 +1,148 @@
+body {
+	background-color: #edf2f7;
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 100%;
+	font-family: arial;
+}
+
+/* navigation */
+
+header {
+   background: rgb(250, 250, 250);
+   padding: 8px 16px;
+   border-bottom: 1px solid rgb(222, 222, 222);
+   box-shadow: 0 0 8px 0 rgb(222, 222, 222);
+   min-width: 960px;
+}
+
+nav {
+   font-size: 22px;
+}
+
+.flex-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   width: 100px;
+}
+
+nav li {
+    margin: 0 12px;
+}
+
+nav a,
+nav a:hover {
+   border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+    background: white;
+    color: gray;
+    text-align: center;
+    user-select: none;
+}
+
+nav a:hover {
+    box-shadow: 0 0 5px 2px rgb(65, 114, 238);
+}
+
+/* main */
+
+.hello-header,
+.card-deck,
+footer {
+  width: 960px;
+  background-color: #fff;
+  margin: 40px auto; /* this centers it*/
+}
+
+.hello,
+span {
+  color: #63b3ed;
+  text-align: center;
+}
+
+.hello {
+  font-size: 125px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #8594ad;
+  font-size: 32px;
+  text-align: center;
+}
+
+.card-deck h2,
+ul {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  padding: 16px 0 0;
+  /* top - left - right - bottom */
+}
+
+.card-deck ul li:last-child {
+  padding-bottom: 32px;
+}
+
+.hire-button {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.hire-button:link, .hire-button:visited {
+  background-color: #fff;
+  color: #8594ad;
+  border: 2px solid #dd6b20;
+}
+
+.hire-button:hover, .hire-button:active{
+  color: #fff;
+  background-color: #dd6b20;
+}
+
+header h2 {
+  padding-bottom: 80px;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edf2f7;
+}
+
+.card-deck section {
+  width: 300px;
+  background-color: #fff;
+}
+
+.card-deck h2 {
+  padding-top: 20px;
+}
+
+footer p {
+  font-style: italic;
+  color: #68778d;
+}
+
+/* unvisited & visited link */
+a:link, a:visited  {
+  color: #68778d;
+}
+
+/* mouse over & selected link */
+a:hover, a:active {
+  color: #000;
+}
